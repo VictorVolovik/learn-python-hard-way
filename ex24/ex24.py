@@ -1,5 +1,5 @@
 print("Let's practice everything")
-print('Youd\'d need to know \'bout escapes with \\ that do \n new-lines and \t tabs.')
+print('You\'d need to know \'bout escapes with \\ that do \n new-lines and \t tabs.')
 
 poem = """
 \tThe lovely world
@@ -27,13 +27,11 @@ start_point = 10000
 beans, jars, crates = secret_formula(start_point)
 
 print("With a starting point of: %d" % start_point)
-print("We'd have %d beans, %d jars and %d crates." \
-        % (beans, jars, crates))
+print("We'd have %d beans, %d jars and %d crates."
+      % (beans, jars, crates))
 
 start_point = start_point / 10
 
 print("We also do that this way:")
-print("We'd have %d beans, %d jars and %d crates." \
-        % secret_formula(start_point))
-
-
+print("We'd have %d beans, %d jars and %d crates."
+      % secret_formula(start_point))

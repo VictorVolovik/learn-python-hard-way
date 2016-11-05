@@ -2,13 +2,16 @@ def add(a, b):
     print("Adding %d + %d" % (a ,b))
     return a + b
 
+
 def substract(a, b):
     print("Subtracting %d - %d" % (a, b))
     return a - b
 
+
 def multiply(a, b):
     print("Multiplying %d * %d" % (a, b))
     return a * b
+
 
 def divide(a, b):
     print("Divinding %d / %d" % (a, b))
