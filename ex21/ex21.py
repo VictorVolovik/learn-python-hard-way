@@ -1,5 +1,8 @@
+"""Functions Cat Return Something"""
+
+
 def add(a, b):
-    print("Adding %d + %d" % (a ,b))
+    print("Adding %d + %d" % (a, b))
     return a + b
 
 
@@ -17,6 +20,7 @@ def divide(a, b):
     print("Divinding %d / %d" % (a, b))
     return a / b
 
+
 print("Let's do some math")
 
 addition = add(5, 10)
@@ -25,4 +29,3 @@ multiplication = multiply(substraction, 10)
 division = divide(multiplication, 25)
 
 print(addition, substraction, multiplication, division)
-

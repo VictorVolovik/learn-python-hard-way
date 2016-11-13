@@ -1,4 +1,5 @@
-""" copares earth species  """
+"""What If"""
+
 
 def compare_earth_species(people, cats, dogs):
     """ compares people, cats and dogs """
@@ -24,5 +25,6 @@ def compare_earth_species(people, cats, dogs):
 
     if people == dogs:
         print("People are dogs.")
+
 
 compare_earth_species(20, 30, 15)

@@ -1,4 +1,5 @@
-"""people transportation"""
+"""Else and If"""
+
 
 def choose_cars_or_buses(people, cars, buses):
     """helps choosing between cats and buses"""
@@ -20,5 +21,6 @@ def choose_cars_or_buses(people, cars, buses):
         print("Alright, let's just take the buses.")
     else:
         print("Fine, let's stay home then.")
+
 
 choose_cars_or_buses(30, 40, 15)

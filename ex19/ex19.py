@@ -1,11 +1,15 @@
+"""Functions and Variables"""
+
+
 def cheese_and_crackers(cheese_count, boxes_of_crackers):
     print("You have %d cheeses!" % cheese_count)
     print("You have %d boxes of crackers!" % boxes_of_crackers)
     print("That's enough for a party")
     print("Get a blanket.\n")
 
+
 print("We can just hive the function numbers directly:")
-cheese_and_crackers(20,30)
+cheese_and_crackers(20, 30)
 
 print("OR, we can use variables from our scope:")
 
@@ -20,4 +24,3 @@ cheese_and_crackers(10 + 20, 5 + 6)
 
 print("And we can combine the two, variables and math:")
 cheese_and_crackers(amount_of_cheese + 100, amount_of_crackers + 200)
-
